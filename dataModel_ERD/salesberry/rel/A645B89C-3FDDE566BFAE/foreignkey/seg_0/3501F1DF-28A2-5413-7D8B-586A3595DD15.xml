@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3501F1DF-28A2-5413-7D8B-586A3595DD15" containerWithKeyObject="0BC9C23B-045A-DABF-96CB-340DFE722604" localFKIndex="AB32B411-3CFB-55EB-F3B3-723E4F39009F" name="Membership_Branch_FK">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>C8EC91C3-AFEF-D7E9-5585-F9A1CC1A78E6</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<referredTableLongName>Branch</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C10C7F5E-3CC6-FC32-4D90-0916F6ECC51D</referredTableID>
+<keyObject>7F742B74-023B-FE1A-038A-660875E59FD1</keyObject>
+<referredKeyID>7F742B74-023B-FE1A-038A-660875E59FD1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>BranchID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F7855E50-1483-6AC6-7A2E-E40B978D066B" name="PaymentType">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>B03EB786-448C-CDC0-83E5-048E149FA3CA</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PaymentType" id="A1895AAF-988C-0A1C-F742-E6C87B67988A">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>F065EA2C-6CAF-93CE-F82C-53C5A1880614</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<domain>9823DCAF-9239-E2C4-56CE-1D518CCE5911</domain>
+<defaultValue>CH</defaultValue>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TypeName" id="F8897003-1C6F-4E68-731D-9BAE9481CE2D">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>A8AA1926-A196-3C46-7F6D-1CE9857681B7</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="051D29B2-C935-16B4-5CDB-E834CC3ED4F4" name="PaymentType_PK">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>ACC328E7-ACC9-459F-EB6C-C860707D994E</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1895AAF-988C-0A1C-F742-E6C87B67988A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

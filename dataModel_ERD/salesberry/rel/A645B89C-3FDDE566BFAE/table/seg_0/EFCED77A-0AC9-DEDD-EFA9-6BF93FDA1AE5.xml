@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EFCED77A-0AC9-DEDD-EFA9-6BF93FDA1AE5" name="Job">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>A7CBF85A-1055-D42A-F9E9-551088C662EC</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="JobID" id="13D9B462-7D38-35A5-A681-AFD24FA8C7F4">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>9D5C835F-03EE-B5DD-DA3D-F3D59B146E22</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JobTitle" id="A9BEAD02-8C39-6E5A-0CFB-06AF0AAE12D1">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>F660515E-7A20-23E1-DF73-A21B802A8433</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MinSalary" id="C217EBFB-A8D1-1E44-FD4C-B1973A8539E4">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>5413CA46-1471-B1FB-BF0A-B6D6E6B49FC0</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<domain>7A8D1AD3-1205-EA50-5D2C-1AF96B32D1F2</domain>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MaxSalary" id="25114B5E-3766-38CA-C008-58537CD5B0E1">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>8ABCC1B8-0B0F-57CB-E60D-2DBEC978B0C6</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="23189844-7D45-7551-75BE-19E53B74B34D" name="Job_PK">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>89B5D9FB-72E1-F104-107E-FBD296CC1026</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13D9B462-7D38-35A5-A681-AFD24FA8C7F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5EEF8B17-50A2-C5A6-9E69-5A8E5E52BC0A" name="UC_JobTitle">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 14:19:00 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9BEAD02-8C39-6E5A-0CFB-06AF0AAE12D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

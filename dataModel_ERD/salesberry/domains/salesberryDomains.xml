@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="salesberryDomains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="QuantityDCK" id="0AB81D2C-6108-95DF-A5D0-210397445FD9">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 16:43:59 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>10</dataTypePrecision>
+<defaultValue>1</defaultValue>
+<fileName>salesberryDomains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="%column%&gt;0"/>
+</checkConstraint>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="PhoneNumberCK" id="284A8E7D-9CE3-7A2D-45B5-0020FC2B9AF5">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 16:23:13 UTC</createdTime>
+<comment><![CDATA[Check everything is numeric and the size is 10.]]></comment>
+<ownerDesignName>salesberry</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>10</dataTypeSize>
+<fileName>salesberryDomains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="%column% like &apos;[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]&apos;"/>
+</checkConstraint>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DiscountScoreDF" id="6EDD63FE-4D56-1255-755C-CD1FBFF2AFEA">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 16:38:32 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<defaultValue>0</defaultValue>
+<fileName>salesberryDomains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="AmountCK" id="75C0C14D-41B4-10DD-3661-ED53CCDB6919">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 16:16:24 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>10</dataTypeSize>
+<fileName>salesberryDomains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="%column%&gt;0"/>
+</checkConstraint>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="SalaryCK" id="7A8D1AD3-1205-EA50-5D2C-1AF96B32D1F2">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 14:21:03 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>10</dataTypeSize>
+<fileName>salesberryDomains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="(%column%&gt;5000)"/>
+</checkConstraint>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="PaymentTypeDF" id="9823DCAF-9239-E2C4-56CE-1D518CCE5911">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 13:51:59 UTC</createdTime>
+<comment><![CDATA[Default Payment Type for Invoice.]]></comment>
+<ownerDesignName>salesberry</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<defaultValue>CH</defaultValue>
+<fileName>salesberryDomains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<listOfValues>
+<valueDef value="CH" description="Cash"/>
+<valueDef value="CR" description="Credit Card"/>
+<valueDef value="DR" description="Debit Card"/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="ShipmentStatusDF" id="9A3D4965-F393-2168-C0EC-A00A695F6051">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 16:45:59 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>1</dataTypeSize>
+<defaultValue>R</defaultValue>
+<fileName>salesberryDomains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<listOfValues>
+<valueDef value="D" description="Delivered"/>
+<valueDef value="I" description="Incoming"/>
+<valueDef value="R" description="Released"/>
+<valueDef value="V" description="Voided/Damaged"/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="EmailCK" id="DBF53282-D018-C75E-9A8D-09DEF81D4900">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 16:31:13 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>salesberryDomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="%column% like &apos;%@%.%&apos; AND %column% NOT LIKE &apos;@%&apos; AND %column% NOT LIKE &apos;%@%@%&apos;"/>
+</checkConstraint>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DateNowDF" id="FDD3E43E-230F-D9D7-7CE1-3B1231B23FE7">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 14:04:01 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<defaultValue>SYSDATETIME()</defaultValue>
+<fileName>salesberryDomains</fileName>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

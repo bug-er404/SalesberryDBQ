@@ -1,0 +1,183 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B05C7E3E-55D3-5485-A547-789367568F89" name="Product">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>B47EA4F8-B2B0-E472-44BA-6D2DA8EED5BE</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ProductID" id="3814B316-CBBA-8C1D-1387-CB3EDD424EF9">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>5C6596F3-A45D-45A4-F52A-1A895B99DCF9</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProductName" id="E6F5A412-08A1-F194-C574-6FCAC7C8DAF9">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>53AA2EAB-FF96-FB77-83BD-516F90D4B1D1</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MSRP" id="B0842C1F-099A-8373-571D-44D3194F2301">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>F2E9426A-B445-0893-0E68-8483630128DB</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<domain>75C0C14D-41B4-10DD-3661-ED53CCDB6919</domain>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProductDes" id="B1963772-53AB-1FA9-349A-FE71D0558941">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>9885BFEB-C59C-0225-8462-2DF595A0373B</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CostPrice" id="C6FDD211-727C-91BD-FD30-38A9AC3ED121">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>46A1F2BB-7F5B-9F31-0065-9DCAB1988C43</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<domain>75C0C14D-41B4-10DD-3661-ED53CCDB6919</domain>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="StockQuantity" id="2D308541-A526-E135-A9B3-1DBC0D0D72CB">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>79D4B04B-9B2A-057A-188F-AAC3D1F3E36B</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DepartmentID" id="B356DAC1-6A6F-7B14-982E-A46259A51770">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>0FA8110C-8961-F4C8-AC2C-6DC824E07F9B</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7AC8497B-765C-6627-2382-501395DCF6F4" referredColumn="ED70B982-0A40-658B-2452-795329DA83BE"/>
+</associations>
+</Column>
+<Column name="WarehouseID" id="58AB6151-6B80-B012-BF82-430A12B45B12">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>9AAE3771-B165-1DDC-ED0B-BA18904FF9A2</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B86F234C-47C9-6491-2FFE-73B7B954C64C" referredColumn="B3AA8CF6-29C3-B584-2E48-EC70D1FC854A"/>
+</associations>
+</Column>
+<Column name="ShipmentID" id="0B57277C-45A1-FE08-C0AA-95CE8EDA5078">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>0770E942-0D6F-DFF5-1E54-80200219C352</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="890E5B96-AE56-C89C-6656-1F9683BC5D3B" referredColumn="3BF21671-BB73-CE3A-87AB-C39D4CE2D438"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5C42FDDA-D47B-0D83-A57B-DC6E52BA5C84" name="Product_PK">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>CB629484-9889-9D0C-C75A-546C4337DC5D</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3814B316-CBBA-8C1D-1387-CB3EDD424EF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3353D4B-D756-D764-A06B-611DA913C75C" name="Product_Department_FK">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>3B7568D8-4D40-6553-C53E-8E2C65C017BF</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B356DAC1-6A6F-7B14-982E-A46259A51770"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="416407BB-EC2E-16B0-0416-7130CA7B80A1" name="Product_Warehouse_FK">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>81EFCF10-9505-76C2-7596-F3A7ACE78C24</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58AB6151-6B80-B012-BF82-430A12B45B12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34B76FE1-9916-996E-E169-C4E8F3236FAA" name="Product_Shipment_FK">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>7E4B2588-C1F2-AF41-2B11-4FFE5BC4A8C2</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B57277C-45A1-FE08-C0AA-95CE8EDA5078"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A7CBF85A-1055-D42A-F9E9-551088C662EC" name="Job">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:35:03 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<engineerTo>
+<item key="A645B89C-FE8A-FAF8-0FAA-3FDDE566BFAE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="JobID" id="9D5C835F-03EE-B5DD-DA3D-F3D59B146E22">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:35:10 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<engineerTo>
+<item key="A645B89C-FE8A-FAF8-0FAA-3FDDE566BFAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JobTitle" id="F660515E-7A20-23E1-DF73-A21B802A8433">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:41:58 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<engineerTo>
+<item key="A645B89C-FE8A-FAF8-0FAA-3FDDE566BFAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MinSalary" id="5413CA46-1471-B1FB-BF0A-B6D6E6B49FC0">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:42:33 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<engineerTo>
+<item key="A645B89C-FE8A-FAF8-0FAA-3FDDE566BFAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MaxSalary" id="8ABCC1B8-0B0F-57CB-E60D-2DBEC978B0C6">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:42:53 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<engineerTo>
+<item key="A645B89C-FE8A-FAF8-0FAA-3FDDE566BFAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="89B5D9FB-72E1-F104-107E-FBD296CC1026" name="Job PK">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:35:26 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<engineerTo>
+<item key="A645B89C-FE8A-FAF8-0FAA-3FDDE566BFAE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9D5C835F-03EE-B5DD-DA3D-F3D59B146E22</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

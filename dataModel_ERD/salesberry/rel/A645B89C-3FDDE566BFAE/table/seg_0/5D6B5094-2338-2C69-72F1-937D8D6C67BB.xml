@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5D6B5094-2338-2C69-72F1-937D8D6C67BB" name="Shipment">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>F0FA4DD7-4AF6-14D9-15DD-A93DD48FD0AA</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="WarehouseID" id="06E54AEB-C98D-4D3B-EEC7-02FFF3E0276C">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>A812DA00-97D6-4AAC-13B5-025F12A7375E</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="837F2617-AD74-0C1F-0EA4-19CA8E7F219F" referredColumn="B3AA8CF6-29C3-B584-2E48-EC70D1FC854A"/>
+</associations>
+</Column>
+<Column name="ShipmentID" id="3BF21671-BB73-CE3A-87AB-C39D4CE2D438">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>A09CCB52-0C37-34F6-0956-CE7CD6F6C174</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ShipmentArrival" id="4AB5B554-7CA9-6958-F868-B5B51AA76B77">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>CB167829-04E7-97D3-932C-2F50A69C4A17</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ShipmentRelease" id="527B6257-F5DA-7D93-50B6-D4225F3D331A">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>8BC538FA-25D8-9669-1E44-11676A23F595</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ShipTypeID" id="922F475A-9DE1-FA61-1391-A56CE1D0C0F3">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>9F5A6091-C4B5-3829-2382-45B99FEEBD08</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="679A39B9-1342-4A2F-BD6F-DD587F6E1F64" referredColumn="69ABF271-3EAC-8B3F-4D7B-A7C24C20AED9"/>
+</associations>
+</Column>
+<Column name="Status" id="71F12BEA-A516-B4EB-B814-202EB2C7807C">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>D8571DE5-E16A-8B6F-8534-A2807895BAA9</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<domain>9A3D4965-F393-2168-C0EC-A00A695F6051</domain>
+<defaultValue>R</defaultValue>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmployeeID" id="253AF1BC-69F4-3703-2176-4C62837EA730">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>209F510C-EFBB-9A32-EF7E-66DCE2641C2C</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B4B22AF-B43F-8018-8B43-9A4E3C09DF61" referredColumn="4A5CCFE2-3F73-F160-4E1A-2B7F9AA7D4ED"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B4C28E3-ED82-3FB8-0788-55A33A7D5D0A" name="Shipment_PK">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>0AA77791-407F-80C1-4FC6-10CEB5CA10F7</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BF21671-BB73-CE3A-87AB-C39D4CE2D438"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9D2F27D-3024-BDE7-2598-CF99BE0713A4" name="Shipment_Employee_FK">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>41CC9E1D-76D7-57A4-FA33-B74D683FD007</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="253AF1BC-69F4-3703-2176-4C62837EA730"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58E5C872-9AAA-1DA9-D27D-AB2EA0E21D16" name="Shipment_ShipmentType_FK">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>26FF0DB6-CDBF-BE8A-534F-0A78030B0E01</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="922F475A-9DE1-FA61-1391-A56CE1D0C0F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68377E66-D431-BB5A-DD87-16A4AFC4E6A2" name="Shipment_Warehouse_FK">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>47732499-63B9-4C12-B8FB-0D8F9BC0DEE3</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06E54AEB-C98D-4D3B-EEC7-02FFF3E0276C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

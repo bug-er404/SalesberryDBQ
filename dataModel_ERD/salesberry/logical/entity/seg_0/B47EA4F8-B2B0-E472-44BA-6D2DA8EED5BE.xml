@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B47EA4F8-B2B0-E472-44BA-6D2DA8EED5BE" name="Product">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-07 14:01:07 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<engineerTo>
+<item key="A645B89C-FE8A-FAF8-0FAA-3FDDE566BFAE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ProductID" id="5C6596F3-A45D-45A4-F52A-1A895B99DCF9">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-11 15:34:20 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<engineerTo>
+<item key="A645B89C-FE8A-FAF8-0FAA-3FDDE566BFAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProductName" id="53AA2EAB-FF96-FB77-83BD-516F90D4B1D1">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-11 15:39:46 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<engineerTo>
+<item key="A645B89C-FE8A-FAF8-0FAA-3FDDE566BFAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MSRP" id="F2E9426A-B445-0893-0E68-8483630128DB">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-11 15:40:58 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<engineerTo>
+<item key="A645B89C-FE8A-FAF8-0FAA-3FDDE566BFAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProductDes" id="9885BFEB-C59C-0225-8462-2DF595A0373B">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-11 15:41:36 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<engineerTo>
+<item key="A645B89C-FE8A-FAF8-0FAA-3FDDE566BFAE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CostPrice" id="46A1F2BB-7F5B-9F31-0065-9DCAB1988C43">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-11 15:44:43 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<engineerTo>
+<item key="A645B89C-FE8A-FAF8-0FAA-3FDDE566BFAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="StockQuantity" id="79D4B04B-9B2A-057A-188F-AAC3D1F3E36B">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-11 15:45:17 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<engineerTo>
+<item key="A645B89C-FE8A-FAF8-0FAA-3FDDE566BFAE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DepartmentID" id="0FA8110C-8961-F4C8-AC2C-6DC824E07F9B">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-11 15:46:48 UTC</createdTime>
+<generatorID>3B7568D8-4D40-6553-C53E-8E2C65C017BF</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<engineerTo>
+<item key="A645B89C-FE8A-FAF8-0FAA-3FDDE566BFAE" value="true"/>
+</engineerTo>
+<referedAttribute>2989D6DF-8EF9-AA86-B5A3-DA0498E46568</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WarehouseID" id="9AAE3771-B165-1DDC-ED0B-BA18904FF9A2">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-11 16:24:18 UTC</createdTime>
+<generatorID>81EFCF10-9505-76C2-7596-F3A7ACE78C24</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<engineerTo>
+<item key="A645B89C-FE8A-FAF8-0FAA-3FDDE566BFAE" value="true"/>
+</engineerTo>
+<referedAttribute>E6D38589-3B75-4493-539F-071198FF26F2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ShipmentID" id="0770E942-0D6F-DFF5-1E54-80200219C352">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-11 17:16:33 UTC</createdTime>
+<generatorID>7E4B2588-C1F2-AF41-2B11-4FFE5BC4A8C2</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<engineerTo>
+<item key="A645B89C-FE8A-FAF8-0FAA-3FDDE566BFAE" value="true"/>
+</engineerTo>
+<referedAttribute>A09CCB52-0C37-34F6-0956-CE7CD6F6C174</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CB629484-9889-9D0C-C75A-546C4337DC5D" name="Product PK">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-11 15:34:37 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<engineerTo>
+<item key="A645B89C-FE8A-FAF8-0FAA-3FDDE566BFAE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5C6596F3-A45D-45A4-F52A-1A895B99DCF9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

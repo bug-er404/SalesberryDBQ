@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5C2CAD2C-417C-4BFE-0574-F1822CA9170C" containerWithKeyObject="00312CFB-B421-BB9F-E764-52C44AE58332" localFKIndex="A4051DEF-BFE2-D3B4-4F32-A775285D33B9" name="Invoice_PaymentType_FK">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>43A5281F-678E-E69F-CCC4-0EE82E218AB4</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<referredTableLongName>PaymentType</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F7855E50-1483-6AC6-7A2E-E40B978D066B</referredTableID>
+<keyObject>051D29B2-C935-16B4-5CDB-E834CC3ED4F4</keyObject>
+<referredKeyID>051D29B2-C935-16B4-5CDB-E834CC3ED4F4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PaymentType</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

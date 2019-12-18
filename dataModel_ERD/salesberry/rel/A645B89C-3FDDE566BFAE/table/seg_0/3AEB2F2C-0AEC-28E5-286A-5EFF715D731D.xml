@@ -1,0 +1,213 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3AEB2F2C-0AEC-28E5-286A-5EFF715D731D" name="Employee">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>0F251AC0-5769-B5A1-7B37-04FF9ACC8B35</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<ordsAlias>employees</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BranchID" id="A2CEEF28-4840-C234-7166-D9845700F5D9">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>8461685C-0837-BE32-16DA-5881C0BB81DB</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6951D813-2D71-CFDE-4AEA-65BCD9F18B5F" referredColumn="1E4A03E2-F194-0F90-3897-29205B16A491"/>
+</associations>
+</Column>
+<Column name="EmployeeID" id="4A5CCFE2-3F73-F160-4E1A-2B7F9AA7D4ED">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>40C1F3A5-28C4-3280-722E-08768D8F82EA</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmpFirstName" id="E81A3ED4-5D18-C2E6-EE3C-5E2BB960002D">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>14327F88-612D-8C71-69BA-8E698F47DCFA</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmpLastName" id="FC060A52-3885-82A0-9C38-7D462D6F0C2A">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>29221489-51F4-ABFD-243D-1D70564DCD68</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmpEmail" id="97BDCD1B-E79F-4202-3C38-182281E55046">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>DAB47EA0-D55E-9D36-1EAE-0DDC96F4E7C3</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<domain>DBF53282-D018-C75E-9A8D-09DEF81D4900</domain>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmpPhone" id="B88F26B3-E843-B6DA-4DB0-62461EAE2296">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>1B34A01B-013C-D1C8-2D68-FE83923A5C59</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<domain>284A8E7D-9CE3-7A2D-45B5-0020FC2B9AF5</domain>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HireDate" id="7FE162ED-E1E1-1C4B-D40C-8153EEB54127">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>05F14E4B-42C3-8523-0E82-78CC762E7E42</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Salary" id="915ADFD9-67BE-DDD2-ABCE-AF7F4FDB2C9A">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>BBAAD99B-2BAC-52C9-EA95-C1FA40051665</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<domain>7A8D1AD3-1205-EA50-5D2C-1AF96B32D1F2</domain>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ManagerID" id="E878C435-30E6-F729-948A-B8AF5679A6F1">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>8FB154A7-9F7C-F82E-0227-95DF0B25B98E</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A34F3A44-C18B-ECA1-1773-FA6C2AEF35A5" referredColumn="4A5CCFE2-3F73-F160-4E1A-2B7F9AA7D4ED"/>
+</associations>
+</Column>
+<Column name="JobID" id="1B668C47-1FCE-A203-668D-B2DE9B4326BA">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>DE2B61B3-F989-33E4-F75A-72F87130C7E6</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="237E9AA5-3788-F616-0F56-B5BFA708DD50" referredColumn="13D9B462-7D38-35A5-A681-AFD24FA8C7F4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2680E8F9-8A2A-C048-6A82-998B73772D41" name="Employee_PK">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>F5223DE9-A74B-1926-6482-48E242299A2F</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A5CCFE2-3F73-F160-4E1A-2B7F9AA7D4ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48ECFD82-E06A-9066-8E8D-2B1255878C36" name="UC_empPhone">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 13:36:14 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B88F26B3-E843-B6DA-4DB0-62461EAE2296"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C851FE3-0D4F-742C-CD1C-0C1E72654CA1" name="UC_empEmail">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 13:36:14 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97BDCD1B-E79F-4202-3C38-182281E55046"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBE18260-91E8-4B44-5B8F-A84C666AC514" name="Employee_Branch_FK">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>2C4B4A67-1852-6981-7BEF-B06F084C3B46</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2CEEF28-4840-C234-7166-D9845700F5D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1EACB25A-79D6-5859-31C5-D5948B6FE238" name="Employee_Employee_FK">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>20C4CCDD-F288-E54B-D1E3-8F4DCD4C952C</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E878C435-30E6-F729-948A-B8AF5679A6F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1EEF818-32D0-2F5B-5D97-CA5F47905E7E" name="Employee_Job_FK">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>B43FA777-57B3-5CF8-BFCB-AFC2D63746AD</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B668C47-1FCE-A203-668D-B2DE9B4326BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

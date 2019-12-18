@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PurchaseInvoice" directorySegmentName="seg_0" id="96DAA9F1-144F-9367-8F63-5EAE87EC8C6C">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-11 14:04:10 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<engineerTo>
+<item key="A645B89C-FE8A-FAF8-0FAA-3FDDE566BFAE" value="true"/>
+</engineerTo>
+<sourcePk>D5480CB2-A78C-F9A2-B4E7-7D4AD59800E0</sourcePk>
+<targetPk>79D30EB1-8D11-B71A-75F5-A7EEC95BE8C6</targetPk>
+<identifying>false</identifying>
+<nameOnSource>correspond</nameOnSource>
+<nameOnTarget>raises</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D923257D-D034-6BF2-3DF2-EF960C8AC467</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>EC23B37F-9E46-A1A5-1E72-EC534C2F1FE8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

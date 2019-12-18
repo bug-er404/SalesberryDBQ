@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="72084E85-0DA1-12DF-698F-30F979A09FB1" name="Membership">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-07 14:00:47 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<engineerTo>
+<item key="A645B89C-FE8A-FAF8-0FAA-3FDDE566BFAE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MemberID" id="626F13A7-163D-7610-03E3-40FA5C10F931">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-11 12:13:26 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<engineerTo>
+<item key="A645B89C-FE8A-FAF8-0FAA-3FDDE566BFAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IssueDate" id="8CE9DA81-1537-805E-26F2-BAAB0098519B">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-11 12:16:18 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<engineerTo>
+<item key="A645B89C-FE8A-FAF8-0FAA-3FDDE566BFAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ExpiryDate" id="C2A8C2E3-4737-1326-25C0-3A08B3EA4B21">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-11 12:16:35 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<engineerTo>
+<item key="A645B89C-FE8A-FAF8-0FAA-3FDDE566BFAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone" id="A7F90086-4158-5D42-4074-76DA59A5B32E">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-11 13:14:56 UTC</createdTime>
+<generatorID>D14F5706-6734-B8B5-18C4-E393B6E6C22E</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<engineerTo>
+<item key="A645B89C-FE8A-FAF8-0FAA-3FDDE566BFAE" value="true"/>
+</engineerTo>
+<referedAttribute>62D50FB6-4350-11F3-9B30-FFE9724A99DD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BranchID" id="F5E90463-0694-C25C-ECFB-56E0B4CA9B24">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-11 16:52:18 UTC</createdTime>
+<generatorID>C8EC91C3-AFEF-D7E9-5585-F9A1CC1A78E6</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<engineerTo>
+<item key="A645B89C-FE8A-FAF8-0FAA-3FDDE566BFAE" value="true"/>
+</engineerTo>
+<referedAttribute>58F38D39-E94C-5160-1B07-D30DC5D6EF47</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MemberScore" id="A07E410E-6AAA-9E49-F615-3B6AF7750907">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-11 17:41:15 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<engineerTo>
+<item key="A645B89C-FE8A-FAF8-0FAA-3FDDE566BFAE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7C233D15-0A2C-5A91-D415-29CEE4D8452D" name="Membership PK">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-11 12:14:00 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<engineerTo>
+<item key="A645B89C-FE8A-FAF8-0FAA-3FDDE566BFAE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>626F13A7-163D-7610-03E3-40FA5C10F931</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

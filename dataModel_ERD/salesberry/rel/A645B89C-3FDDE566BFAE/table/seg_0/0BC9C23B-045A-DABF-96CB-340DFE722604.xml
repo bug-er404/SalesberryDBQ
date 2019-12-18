@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0BC9C23B-045A-DABF-96CB-340DFE722604" name="Membership">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>72084E85-0DA1-12DF-698F-30F979A09FB1</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MemberID" id="B6711887-EFDC-5D9F-CBCD-774C87F7641E">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>626F13A7-163D-7610-03E3-40FA5C10F931</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IssueDate" id="151FE51B-D1D4-6DC8-CADC-ACD4F85B0955">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>8CE9DA81-1537-805E-26F2-BAAB0098519B</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ExpiryDate" id="4201D049-2F5D-9F03-7B27-ACDA592F7BCE">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>C2A8C2E3-4737-1326-25C0-3A08B3EA4B21</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BranchID" id="ED25F57F-9544-16C6-C5C6-627918F1F5B5">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>F5E90463-0694-C25C-ECFB-56E0B4CA9B24</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3501F1DF-28A2-5413-7D8B-586A3595DD15" referredColumn="1E4A03E2-F194-0F90-3897-29205B16A491"/>
+</associations>
+</Column>
+<Column name="MemberScore" id="ADFCB16D-0E5D-627A-D6AC-90F093980D5B">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>A07E410E-6AAA-9E49-F615-3B6AF7750907</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<domain>6EDD63FE-4D56-1255-755C-CD1FBFF2AFEA</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5B77EBBC-CCC4-3EB8-A393-C7325B72555D" name="Membership_PK">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>7C233D15-0A2C-5A91-D415-29CEE4D8452D</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6711887-EFDC-5D9F-CBCD-774C87F7641E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB32B411-3CFB-55EB-F3B3-723E4F39009F" name="Membership_Branch_FK">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>C8EC91C3-AFEF-D7E9-5585-F9A1CC1A78E6</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED25F57F-9544-16C6-C5C6-627918F1F5B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

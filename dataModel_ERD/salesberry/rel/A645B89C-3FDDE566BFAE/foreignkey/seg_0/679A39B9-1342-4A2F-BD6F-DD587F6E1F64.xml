@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="679A39B9-1342-4A2F-BD6F-DD587F6E1F64" containerWithKeyObject="5D6B5094-2338-2C69-72F1-937D8D6C67BB" localFKIndex="58E5C872-9AAA-1DA9-D27D-AB2EA0E21D16" name="Shipment_ShipmentType_FK">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>26FF0DB6-CDBF-BE8A-534F-0A78030B0E01</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<referredTableLongName>ShipmentType</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>23ABFEBA-773D-807F-8335-48A0EB25D5A2</referredTableID>
+<keyObject>D756070F-A4E7-7FD9-1B04-D5E29C752880</keyObject>
+<referredKeyID>D756070F-A4E7-7FD9-1B04-D5E29C752880</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ShipTypeID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

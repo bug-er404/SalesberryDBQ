@@ -1,0 +1,1313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="SalilOracle">
+  <database-model serializer="dbm" dbms="ORACLE" family-id="ORACLE" format-version="4.15">
+    <root id="1">
+      <ServerVersion>18.0.0.0.0</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="ADAGAS">
+      <ObjectId>153</ObjectId>
+    </schema>
+    <schema id="3" parent="1" name="ALEXIOSDIMAS">
+      <ObjectId>154</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="ALYKOURINOS">
+      <ObjectId>156</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="ANONYMOUS">
+      <ObjectId>63</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="ANTOGKAS">
+      <ObjectId>137</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="APEX_180200">
+      <ObjectId>104</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="APEX_INSTANCE_ADMIN_USER">
+      <ObjectId>110</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="APEX_LISTENER">
+      <ObjectId>111</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>106</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="APEX_REST_PUBLIC_USER">
+      <ObjectId>112</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="APPQOSSYS">
+      <ObjectId>55</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="AUDSYS">
+      <ObjectId>8</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="CTXSYS">
+      <ObjectId>83</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="DBJSON">
+      <ObjectId>124</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="DBSFWUSER">
+      <ObjectId>35</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="DBSNMP">
+      <ObjectId>54</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="DIP">
+      <ObjectId>23</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="DVF">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="DVSYS">
+      <ObjectId>1279990</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="ESKARTSILAKIS">
+      <ObjectId>143</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="EVANGELIAKALOGIROU">
+      <ObjectId>141</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="FLOWS_FILES">
+      <ObjectId>105</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="GGSYS">
+      <ObjectId>60</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="GSMADMIN_INTERNAL">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="GSMCATUSER">
+      <ObjectId>59</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="GSMUSER">
+      <ObjectId>22</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="HR">
+      <ObjectId>128</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="HRREST">
+      <ObjectId>116</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="IKARKEMPETZAKIS">
+      <ObjectId>149</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="KDONNELLY">
+      <ObjectId>151</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="LBACSYS">
+      <ObjectId>97</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="MDDATA">
+      <ObjectId>95</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="MDSYS">
+      <ObjectId>89</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="MKONSTANTARAS">
+      <ObjectId>133</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="MKOTSOVOULOU">
+      <ObjectId>130</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="MPERIKLEOUS">
+      <ObjectId>140</ObjectId>
+    </schema>
+    <schema id="38" parent="1" name="MSIBUL">
+      <ObjectId>147</ObjectId>
+    </schema>
+    <schema id="39" parent="1" name="MYDBA">
+      <ObjectId>117</ObjectId>
+    </schema>
+    <schema id="40" parent="1" name="NDIALEKTOPOULOS">
+      <ObjectId>139</ObjectId>
+    </schema>
+    <schema id="41" parent="1" name="NEXARCHOS">
+      <ObjectId>134</ObjectId>
+    </schema>
+    <schema id="42" parent="1" name="OBE">
+      <ObjectId>127</ObjectId>
+    </schema>
+    <schema id="43" parent="1" name="OJVMSYS">
+      <ObjectId>81</ObjectId>
+    </schema>
+    <schema id="44" parent="1" name="OLAPSYS">
+      <ObjectId>92</ObjectId>
+    </schema>
+    <schema id="45" parent="1" name="ORACLE_OCM">
+      <ObjectId>39</ObjectId>
+    </schema>
+    <schema id="46" parent="1" name="ORDDATA">
+      <ObjectId>86</ObjectId>
+    </schema>
+    <schema id="47" parent="1" name="ORDPLUGINS">
+      <ObjectId>87</ObjectId>
+    </schema>
+    <schema id="48" parent="1" name="ORDSYS">
+      <ObjectId>85</ObjectId>
+    </schema>
+    <schema id="49" parent="1" name="ORDS_METADATA">
+      <ObjectId>113</ObjectId>
+    </schema>
+    <schema id="50" parent="1" name="ORDS_PUBLIC_USER">
+      <ObjectId>114</ObjectId>
+    </schema>
+    <schema id="51" parent="1" name="OUTLN">
+      <ObjectId>13</ObjectId>
+    </schema>
+    <schema id="52" parent="1" name="PDBADMIN">
+      <ObjectId>102</ObjectId>
+    </schema>
+    <schema id="53" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="54" parent="1" name="REMOTE_SCHEDULER_AGENT">
+      <ObjectId>34</ObjectId>
+    </schema>
+    <schema id="55" parent="1" name="SCOTT">
+      <ObjectId>118</ObjectId>
+    </schema>
+    <schema id="56" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>88</ObjectId>
+    </schema>
+    <schema id="57" parent="1" name="SMAHARJAN">
+      <ObjectId>144</ObjectId>
+      <CreatedTimestamp>2019-11-15.10:49:01</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-22.09:07:05</ModifiedTimestamp>
+      <IntrospectionTimestamp>2019-11-25.08:49:59</IntrospectionTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="58" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+      <Substituted>1</Substituted>
+    </schema>
+    <schema id="59" parent="1" name="SYS$UMF">
+      <ObjectId>46</ObjectId>
+    </schema>
+    <schema id="60" parent="1" name="SYSBACKUP">
+      <ObjectId>2147483617</ObjectId>
+    </schema>
+    <schema id="61" parent="1" name="SYSDG">
+      <ObjectId>2147483618</ObjectId>
+    </schema>
+    <schema id="62" parent="1" name="SYSKM">
+      <ObjectId>2147483619</ObjectId>
+    </schema>
+    <schema id="63" parent="1" name="SYSRAC">
+      <ObjectId>2147483620</ObjectId>
+    </schema>
+    <schema id="64" parent="1" name="SYSTEM">
+      <ObjectId>9</ObjectId>
+      <Substituted>1</Substituted>
+    </schema>
+    <schema id="65" parent="1" name="TEST123">
+      <ObjectId>146</ObjectId>
+    </schema>
+    <schema id="66" parent="1" name="TLYKOURINOS">
+      <ObjectId>157</ObjectId>
+    </schema>
+    <schema id="67" parent="1" name="VDEVLIOTIS">
+      <ObjectId>152</ObjectId>
+    </schema>
+    <schema id="68" parent="1" name="VGETSEVA">
+      <ObjectId>148</ObjectId>
+    </schema>
+    <schema id="69" parent="1" name="WMSYS">
+      <ObjectId>72</ObjectId>
+    </schema>
+    <schema id="70" parent="1" name="XDB">
+      <ObjectId>62</ObjectId>
+    </schema>
+    <schema id="71" parent="1" name="XDBEXT">
+      <ObjectId>120</ObjectId>
+    </schema>
+    <schema id="72" parent="1" name="XDBPM">
+      <ObjectId>121</ObjectId>
+    </schema>
+    <schema id="73" parent="1" name="XFILES">
+      <ObjectId>119</ObjectId>
+    </schema>
+    <schema id="74" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <sequence id="75" parent="57" name="DEPTID_SEQ">
+      <ObjectId>111680</ObjectId>
+      <CreatedTimestamp>2019-11-18.13:02:05</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-18.13:02:05</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="76" parent="57" name="DETAILID_SEQ">
+      <ObjectId>111747</ObjectId>
+      <CreatedTimestamp>2019-11-18.13:51:57</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-18.13:51:57</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="77" parent="57" name="EMPID_SEQ">
+      <ObjectId>110667</ObjectId>
+      <CreatedTimestamp>2019-11-15.12:27:47</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-15.12:27:47</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="78" parent="57" name="INVID_SEQ">
+      <ObjectId>110669</ObjectId>
+      <CreatedTimestamp>2019-11-15.12:41:10</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-15.12:41:10</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="79" parent="57" name="MEMBERID_SEQ">
+      <ObjectId>111858</ObjectId>
+      <CreatedTimestamp>2019-11-19.13:51:33</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-19.13:51:33</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="80" parent="57" name="PRODUCTID_SEQ">
+      <ObjectId>111734</ObjectId>
+      <CreatedTimestamp>2019-11-18.13:49:45</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-18.13:49:45</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="81" parent="57" name="PURCHASEID_SEQ">
+      <ObjectId>111745</ObjectId>
+      <CreatedTimestamp>2019-11-18.13:50:50</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-18.13:50:50</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="82" parent="57" name="SHIPMENTID_SEQ">
+      <ObjectId>111749</ObjectId>
+      <CreatedTimestamp>2019-11-18.13:53:12</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-18.13:53:12</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="83" parent="57" name="SHIPTYPEID_SEQ">
+      <ObjectId>111751</ObjectId>
+      <CreatedTimestamp>2019-11-18.13:55:38</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-18.13:55:38</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="84" parent="57" name="WAREHOUSEID_SEQ">
+      <ObjectId>111753</ObjectId>
+      <CreatedTimestamp>2019-11-18.13:56:29</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-18.13:56:29</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <table id="85" parent="57" name="BRANCH">
+      <ObjectId>110627</ObjectId>
+      <CreatedTimestamp>2019-11-15.10:49:01</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-18.15:09:15</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="86" parent="57" name="DEPARTMENT">
+      <ObjectId>110629</ObjectId>
+      <CreatedTimestamp>2019-11-15.10:49:09</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-15.10:49:12</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="87" parent="57" name="EMPLOYEE">
+      <ObjectId>110631</ObjectId>
+      <CreatedTimestamp>2019-11-15.10:49:25</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-18.13:34:42</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="88" parent="57" name="INVOICE">
+      <ObjectId>110635</ObjectId>
+      <CreatedTimestamp>2019-11-15.10:58:07</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-15.11:42:53</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="89" parent="57" name="JOB">
+      <ObjectId>110638</ObjectId>
+      <CreatedTimestamp>2019-11-15.10:59:06</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-18.15:26:56</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="90" parent="57" name="MEMBER">
+      <ObjectId>110643</ObjectId>
+      <CreatedTimestamp>2019-11-15.11:10:12</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-19.14:00:48</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="91" parent="57" name="MEMBERSHIP">
+      <ObjectId>110647</ObjectId>
+      <CreatedTimestamp>2019-11-15.11:11:43</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-19.13:58:52</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="92" parent="57" name="PAYMENTTYPE">
+      <ObjectId>110650</ObjectId>
+      <CreatedTimestamp>2019-11-15.11:12:03</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-15.11:27:38</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="93" parent="57" name="PRODUCT">
+      <ObjectId>110652</ObjectId>
+      <CreatedTimestamp>2019-11-15.11:14:36</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-15.11:17:46</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="94" parent="57" name="PURCHASE">
+      <ObjectId>110654</ObjectId>
+      <CreatedTimestamp>2019-11-15.11:15:52</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-22.09:07:05</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="95" parent="57" name="PURCHASEDETAIL">
+      <ObjectId>110657</ObjectId>
+      <CreatedTimestamp>2019-11-15.11:16:06</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-15.11:18:00</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="96" parent="57" name="SHIPMENT">
+      <ObjectId>110659</ObjectId>
+      <CreatedTimestamp>2019-11-15.11:16:39</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-18.14:55:22</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="97" parent="57" name="SHIPMENTTYPE">
+      <ObjectId>110661</ObjectId>
+      <CreatedTimestamp>2019-11-15.11:16:47</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-20.11:26:15</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="98" parent="57" name="WAREHOUSE">
+      <ObjectId>110663</ObjectId>
+      <CreatedTimestamp>2019-11-15.11:16:56</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-15.11:18:13</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <column id="99" parent="85" name="BRANCHID">
+      <Position>1</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="100" parent="85" name="BRANCHNAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(50 char)|0us</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="101" parent="85" name="BRANCHLOCATION">
+      <Position>3</Position>
+      <DataType>VARCHAR2(25 char)|0us</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="102" parent="85" name="MANAGERID">
+      <Position>4</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="103" parent="85" name="BRANCH_PK">
+      <ObjectId>110628</ObjectId>
+      <CreatedTimestamp>2019-11-15.10:49:04</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-15.10:49:04</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>BRANCHID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="104" parent="85" name="BRANCH_PK">
+      <ModifiedTimestamp>2019-11-15.10:49:04</ModifiedTimestamp>
+      <ColNames>BRANCHID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>BRANCH_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="105" parent="86" name="DEPARTMENTID">
+      <Position>1</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="106" parent="86" name="DEPARTMENTNAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(25 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="107" parent="86" name="AISLE">
+      <Position>3</Position>
+      <DataType>NUMBER(3 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="108" parent="86" name="FLOOR">
+      <Position>4</Position>
+      <DataType>NUMBER(2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="109" parent="86" name="DEPARTMENT_PK">
+      <ObjectId>110630</ObjectId>
+      <CreatedTimestamp>2019-11-15.10:49:12</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-15.10:49:12</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>DEPARTMENTID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="110" parent="86" name="DEPARTMENT_PK">
+      <ModifiedTimestamp>2019-11-15.10:49:12</ModifiedTimestamp>
+      <ColNames>DEPARTMENTID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>DEPARTMENT_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <trigger id="111" parent="86" name="DEPARTMENTID_TR">
+      <ObjectId>110666</ObjectId>
+      <SourceTextLength>83</SourceTextLength>
+      <DependsOnIds>144,111680</DependsOnIds>
+      <CreatedTimestamp>2019-11-15.12:22:25</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-18.13:02:08</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="112" parent="87" name="BRANCHID">
+      <Position>1</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="113" parent="87" name="EMPLOYEEID">
+      <Position>2</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="114" parent="87" name="EMPFIRSTNAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(25 char)|0us</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="115" parent="87" name="EMPLASTNAME">
+      <Position>4</Position>
+      <DataType>VARCHAR2(25 char)|0us</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="116" parent="87" name="EMPEMAIL">
+      <Position>5</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+    </column>
+    <column id="117" parent="87" name="EMPPHONE">
+      <Position>6</Position>
+      <DataType>CHAR(10 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="118" parent="87" name="HIREDATE">
+      <Position>7</Position>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="119" parent="87" name="SALARY">
+      <Position>8</Position>
+      <DataType>NUMBER(10,2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="120" parent="87" name="MANAGERID">
+      <Position>9</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <column id="121" parent="87" name="JOBID">
+      <Position>10</Position>
+      <DataType>VARCHAR2(15 char)|0us</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="122" parent="87" name="EMPLOYEE_PK">
+      <ObjectId>110632</ObjectId>
+      <CreatedTimestamp>2019-11-15.10:56:54</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-15.10:56:54</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>EMPLOYEEID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="123" parent="87" name="EMPEMAILUC">
+      <ObjectId>110642</ObjectId>
+      <CreatedTimestamp>2019-11-15.11:09:55</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-15.11:09:55</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>EMPEMAIL</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="124" parent="87" name="EMPPHONEUC">
+      <ObjectId>110633</ObjectId>
+      <CreatedTimestamp>2019-11-15.10:57:26</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-15.10:57:26</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>EMPPHONE</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="125" parent="87" name="EMPLOYEE_PK">
+      <ModifiedTimestamp>2019-11-15.10:56:54</ModifiedTimestamp>
+      <ColNames>EMPLOYEEID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>EMPLOYEE_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="126" parent="87" name="EMPEMAILUC">
+      <ModifiedTimestamp>2019-11-15.11:09:55</ModifiedTimestamp>
+      <ColNames>EMPEMAIL</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>EMPEMAILUC</UnderlyingIndexName>
+    </key>
+    <key id="127" parent="87" name="EMPPHONEUC">
+      <ModifiedTimestamp>2019-11-15.10:57:26</ModifiedTimestamp>
+      <ColNames>EMPPHONE</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>EMPPHONEUC</UnderlyingIndexName>
+    </key>
+    <foreign-key id="128" parent="87" name="EMPLOYEE_BRANCH_FK">
+      <ModifiedTimestamp>2019-11-15.11:17:10</ModifiedTimestamp>
+      <ColNames>BRANCHID</ColNames>
+      <RefTableName>BRANCH</RefTableName>
+      <RefKeyName>BRANCH_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="129" parent="87" name="EMPLOYEE_EMPLOYEE_FK">
+      <ModifiedTimestamp>2019-11-15.11:17:16</ModifiedTimestamp>
+      <ColNames>MANAGERID</ColNames>
+      <RefTableName>EMPLOYEE</RefTableName>
+      <RefKeyName>EMPLOYEE_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="130" parent="87" name="EMPLOYEE_JOB_FK">
+      <ModifiedTimestamp>2019-11-15.11:17:19</ModifiedTimestamp>
+      <ColNames>JOBID</ColNames>
+      <RefTableName>JOB</RefTableName>
+      <RefKeyName>JOB_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="131" parent="87" name="EMP_SALARYCK">
+      <ModifiedTimestamp>2019-11-15.11:06:52</ModifiedTimestamp>
+      <ColNames>SALARY</ColNames>
+      <Predicate> ( salary &gt; 5000 ) </Predicate>
+    </check>
+    <check id="132" parent="87" name="EMP_EMAILCK">
+      <ModifiedTimestamp>2019-11-15.11:06:46</ModifiedTimestamp>
+      <ColNames>EMPEMAIL</ColNames>
+      <Predicate> empemail LIKE &apos;%_@__%.__%&apos; </Predicate>
+    </check>
+    <check id="133" parent="87" name="EMP_PHONECK">
+      <ModifiedTimestamp>2019-11-18.13:34:42</ModifiedTimestamp>
+      <ColNames>EMPPHONE</ColNames>
+      <Predicate>regexp_like(empphone,  &apos;^[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]$&apos;)
+</Predicate>
+    </check>
+    <trigger id="134" parent="87" name="EMPID_TR">
+      <ObjectId>110668</ObjectId>
+      <SourceTextLength>80</SourceTextLength>
+      <DependsOnIds>144,110667</DependsOnIds>
+      <CreatedTimestamp>2019-11-15.12:31:32</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-15.12:41:02</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="135" parent="88" name="INVOICEID">
+      <Position>1</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="136" parent="88" name="AMOUNT">
+      <Position>2</Position>
+      <DataType>NUMBER(10,2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="137" parent="88" name="DATETIME">
+      <Position>3</Position>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>sysdate</DefaultExpression>
+    </column>
+    <column id="138" parent="88" name="PAYMENTTYPE">
+      <Position>4</Position>
+      <DataType>CHAR(2 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;CH&apos;</DefaultExpression>
+    </column>
+    <column id="139" parent="88" name="PURCHASEID">
+      <Position>5</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="140" parent="88" name="INVOICE_PK">
+      <ObjectId>110637</ObjectId>
+      <CreatedTimestamp>2019-11-15.10:59:01</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-15.10:59:01</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>INVOICEID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="141" parent="88" name="INVOICE__IDX">
+      <ObjectId>110636</ObjectId>
+      <CreatedTimestamp>2019-11-15.10:58:53</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-15.10:58:53</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>PURCHASEID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="142" parent="88" name="INVOICE_PK">
+      <ModifiedTimestamp>2019-11-15.10:59:01</ModifiedTimestamp>
+      <ColNames>INVOICEID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>INVOICE_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="143" parent="88" name="INVOICE_PAYMENTTYPE_FK">
+      <ModifiedTimestamp>2019-11-15.11:17:22</ModifiedTimestamp>
+      <ColNames>PAYMENTTYPE</ColNames>
+      <RefTableName>PAYMENTTYPE</RefTableName>
+      <RefKeyName>PAYMENTTYPE_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="144" parent="88" name="INVOICE_PURCHASE_FK">
+      <ModifiedTimestamp>2019-11-15.11:17:26</ModifiedTimestamp>
+      <ColNames>PURCHASEID</ColNames>
+      <RefTableName>PURCHASE</RefTableName>
+      <RefKeyName>PURCHASE_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="145" parent="88" name="INV_AMOUNTCK">
+      <ModifiedTimestamp>2019-11-15.11:08:07</ModifiedTimestamp>
+      <ColNames>AMOUNT</ColNames>
+      <Predicate> amount &gt; 0 </Predicate>
+    </check>
+    <check id="146" parent="88" name="PAYMENTTYPEDFV">
+      <ModifiedTimestamp>2019-11-15.11:26:42</ModifiedTimestamp>
+      <ColNames>PAYMENTTYPE</ColNames>
+      <Predicate>paymenttype in (&apos;CH&apos;, &apos;CR&apos;, &apos;DR&apos;)</Predicate>
+    </check>
+    <trigger id="147" parent="88" name="INVID_TR">
+      <ObjectId>110670</ObjectId>
+      <SourceTextLength>79</SourceTextLength>
+      <DependsOnIds>144,110669</DependsOnIds>
+      <CreatedTimestamp>2019-11-15.12:41:13</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-15.12:41:13</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="148" parent="89" name="JOBID">
+      <Position>1</Position>
+      <DataType>VARCHAR2(15 char)|0us</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="149" parent="89" name="JOBTITLE">
+      <Position>2</Position>
+      <DataType>VARCHAR2(30 char)|0us</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="150" parent="89" name="MINSALARY">
+      <Position>3</Position>
+      <DataType>NUMBER(10,2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="151" parent="89" name="MAXSALARY">
+      <Position>4</Position>
+      <DataType>NUMBER(10,2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="152" parent="89" name="JOB_PK">
+      <ObjectId>110640</ObjectId>
+      <CreatedTimestamp>2019-11-15.11:08:49</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-15.11:08:49</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>JOBID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="153" parent="89" name="JOBTITLEUC">
+      <ObjectId>110641</ObjectId>
+      <CreatedTimestamp>2019-11-15.11:09:14</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-15.11:09:14</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>JOBTITLE</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="154" parent="89" name="JOB_PK">
+      <ModifiedTimestamp>2019-11-15.11:08:49</ModifiedTimestamp>
+      <ColNames>JOBID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>JOB_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="155" parent="89" name="JOBTITLEUC">
+      <ModifiedTimestamp>2019-11-15.11:09:14</ModifiedTimestamp>
+      <ColNames>JOBTITLE</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>JOBTITLEUC</UnderlyingIndexName>
+    </key>
+    <check id="156" parent="89" name="JOB_SALARYCK">
+      <ModifiedTimestamp>2019-11-15.11:08:45</ModifiedTimestamp>
+      <ColNames>MINSALARY</ColNames>
+      <Predicate> ( minsalary &gt; 5000 ) </Predicate>
+    </check>
+    <column id="157" parent="90" name="MEMBERID">
+      <Position>1</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="158" parent="90" name="FIRSTNAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20 char)|0us</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="159" parent="90" name="LASTNAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(20 char)|0us</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="160" parent="90" name="PHONE">
+      <Position>4</Position>
+      <DataType>CHAR(10 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="161" parent="90" name="EMAIL">
+      <Position>5</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+    </column>
+    <column id="162" parent="90" name="ADDRESS">
+      <Position>6</Position>
+      <DataType>VARCHAR2(50 char)|0us</DataType>
+    </column>
+    <index id="163" parent="90" name="MEMBER__IDX">
+      <ObjectId>110644</ObjectId>
+      <CreatedTimestamp>2019-11-15.11:11:14</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-15.11:11:14</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>MEMBERID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="164" parent="90" name="MEMBER_PK">
+      <ObjectId>110645</ObjectId>
+      <CreatedTimestamp>2019-11-15.11:11:20</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-15.11:11:20</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>PHONE</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="165" parent="90" name="EMAILUC">
+      <ObjectId>110646</ObjectId>
+      <CreatedTimestamp>2019-11-15.11:11:37</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-15.11:11:37</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>EMAIL</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="166" parent="90" name="MEMBER_PK">
+      <ModifiedTimestamp>2019-11-15.11:11:20</ModifiedTimestamp>
+      <ColNames>PHONE</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>MEMBER_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="167" parent="90" name="EMAILUC">
+      <ModifiedTimestamp>2019-11-15.11:11:37</ModifiedTimestamp>
+      <ColNames>EMAIL</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>EMAILUC</UnderlyingIndexName>
+    </key>
+    <foreign-key id="168" parent="90" name="MEMBER_MEMBERSHIP_FK">
+      <ModifiedTimestamp>2019-11-15.11:17:29</ModifiedTimestamp>
+      <ColNames>MEMBERID</ColNames>
+      <RefTableName>MEMBERSHIP</RefTableName>
+      <RefKeyName>MEMBERSHIP_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="169" parent="90" name="MEM_EMAILCK">
+      <ModifiedTimestamp>2019-11-15.11:11:10</ModifiedTimestamp>
+      <ColNames>EMAIL</ColNames>
+      <Predicate> email LIKE &apos;%_@__%.__%&apos;</Predicate>
+    </check>
+    <check id="170" parent="90" name="MEM_PHONECK">
+      <ModifiedTimestamp>2019-11-19.13:36:06</ModifiedTimestamp>
+      <ColNames>PHONE</ColNames>
+      <Predicate>regexp_like( phone,  &apos;^[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]$&apos;)</Predicate>
+    </check>
+    <column id="171" parent="91" name="MEMBERID">
+      <Position>1</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="172" parent="91" name="ISSUEDATE">
+      <Position>2</Position>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="173" parent="91" name="EXPIRYDATE">
+      <Position>3</Position>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="174" parent="91" name="BRANCHID">
+      <Position>4</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="175" parent="91" name="MEMBERSCORE">
+      <Position>5</Position>
+      <DataType>NUMBER(4,2 digit)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <index id="176" parent="91" name="MEMBERSHIP_PK">
+      <ObjectId>110649</ObjectId>
+      <CreatedTimestamp>2019-11-15.11:11:54</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-15.11:11:54</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>MEMBERID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="177" parent="91" name="MEMBERSHIP_PK">
+      <ModifiedTimestamp>2019-11-15.11:11:54</ModifiedTimestamp>
+      <ColNames>MEMBERID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>MEMBERSHIP_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="178" parent="91" name="MEMBERSHIP_BRANCH_FK">
+      <ModifiedTimestamp>2019-11-15.11:17:33</ModifiedTimestamp>
+      <ColNames>BRANCHID</ColNames>
+      <RefTableName>BRANCH</RefTableName>
+      <RefKeyName>BRANCH_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <trigger id="179" parent="91" name="MEMBERID_TR">
+      <ObjectId>111694</ObjectId>
+      <SourceTextLength>81</SourceTextLength>
+      <DependsOnIds>144,111858</DependsOnIds>
+      <CreatedTimestamp>2019-11-19.13:51:36</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-19.13:51:36</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <trigger id="180" parent="91" name="MEMDATECK_TR">
+      <ObjectId>111775</ObjectId>
+      <SourceTextLength>226</SourceTextLength>
+      <DependsOnIds>1752</DependsOnIds>
+      <CreatedTimestamp>2019-11-18.14:36:29</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-18.14:48:23</ModifiedTimestamp>
+      <Events>IU</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="181" parent="92" name="PAYMENTTYPE">
+      <Position>1</Position>
+      <DataType>CHAR(2 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;CH&apos;</DefaultExpression>
+    </column>
+    <column id="182" parent="92" name="TYPENAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20 char)|0us</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="183" parent="92" name="PAYMENTTYPE_PK">
+      <ObjectId>110651</ObjectId>
+      <CreatedTimestamp>2019-11-15.11:12:07</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-15.11:12:07</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>PAYMENTTYPE</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="184" parent="92" name="PAYMENTTYPE_PK">
+      <ModifiedTimestamp>2019-11-15.11:12:07</ModifiedTimestamp>
+      <ColNames>PAYMENTTYPE</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PAYMENTTYPE_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <check id="185" parent="92" name="PAYMENTDFV">
+      <ModifiedTimestamp>2019-11-15.11:27:38</ModifiedTimestamp>
+      <ColNames>PAYMENTTYPE</ColNames>
+      <Predicate>paymenttype in (&apos;CH&apos;, &apos;CR&apos;, &apos;DR&apos;)</Predicate>
+    </check>
+    <column id="186" parent="93" name="PRODUCTID">
+      <Position>1</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="187" parent="93" name="PRODUCTNAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(50 char)|0us</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="188" parent="93" name="MSRP">
+      <Position>3</Position>
+      <DataType>NUMBER(10,2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="189" parent="93" name="PRODUCTDES">
+      <Position>4</Position>
+      <DataType>VARCHAR2(80 char)|0us</DataType>
+    </column>
+    <column id="190" parent="93" name="COSTPRICE">
+      <Position>5</Position>
+      <DataType>NUMBER(10,2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="191" parent="93" name="STOCKQUANTITY">
+      <Position>6</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <column id="192" parent="93" name="DEPARTMENTID">
+      <Position>7</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="193" parent="93" name="WAREHOUSEID">
+      <Position>8</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="194" parent="93" name="SHIPMENTID">
+      <Position>9</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="195" parent="93" name="PRODUCT_PK">
+      <ObjectId>110653</ObjectId>
+      <CreatedTimestamp>2019-11-15.11:15:31</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-15.11:15:31</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>PRODUCTID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="196" parent="93" name="PRODUCT_PK">
+      <ModifiedTimestamp>2019-11-15.11:15:31</ModifiedTimestamp>
+      <ColNames>PRODUCTID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PRODUCT_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="197" parent="93" name="PRODUCT_DEPARTMENT_FK">
+      <ModifiedTimestamp>2019-11-15.11:17:39</ModifiedTimestamp>
+      <ColNames>DEPARTMENTID</ColNames>
+      <RefTableName>DEPARTMENT</RefTableName>
+      <RefKeyName>DEPARTMENT_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="198" parent="93" name="PRODUCT_WAREHOUSE_FK">
+      <ModifiedTimestamp>2019-11-15.11:17:46</ModifiedTimestamp>
+      <ColNames>WAREHOUSEID</ColNames>
+      <RefTableName>WAREHOUSE</RefTableName>
+      <RefKeyName>WAREHOUSE_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="199" parent="93" name="PRODUCT_SHIPMENT_FK">
+      <ModifiedTimestamp>2019-11-15.11:17:42</ModifiedTimestamp>
+      <ColNames>SHIPMENTID</ColNames>
+      <RefTableName>SHIPMENT</RefTableName>
+      <RefKeyName>SHIPMENT_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="200" parent="93" name="PRD_AMOUNTCK">
+      <ModifiedTimestamp>2019-11-15.11:15:24</ModifiedTimestamp>
+      <ColNames>COSTPRICE</ColNames>
+      <Predicate> costprice &gt; 0 </Predicate>
+    </check>
+    <check id="201" parent="93" name="PRD_PRICECK">
+      <ModifiedTimestamp>2019-11-15.11:15:12</ModifiedTimestamp>
+      <ColNames>MSRP</ColNames>
+      <Predicate> msrp &gt; 0 </Predicate>
+    </check>
+    <trigger id="202" parent="93" name="PRODUCTID_TR">
+      <ObjectId>111736</ObjectId>
+      <SourceTextLength>83</SourceTextLength>
+      <DependsOnIds>144,111734</DependsOnIds>
+      <CreatedTimestamp>2019-11-18.13:49:48</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-18.13:49:48</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="203" parent="94" name="PURCHASEID">
+      <Position>1</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="204" parent="94" name="PURCHASEDATE">
+      <Position>2</Position>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>sysdate</DefaultExpression>
+    </column>
+    <column id="205" parent="94" name="MEMBERID">
+      <Position>3</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <column id="206" parent="94" name="EMPLOYEEID">
+      <Position>4</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="207" parent="94" name="PURCHASE_PK">
+      <ObjectId>110656</ObjectId>
+      <CreatedTimestamp>2019-11-15.11:15:58</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-15.11:15:58</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>PURCHASEID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="208" parent="94" name="PURCHASE_PK">
+      <ModifiedTimestamp>2019-11-15.11:15:58</ModifiedTimestamp>
+      <ColNames>PURCHASEID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PURCHASE_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="209" parent="94" name="PURCHASE_EMPLOYEE_FK">
+      <ModifiedTimestamp>2019-11-15.11:17:49</ModifiedTimestamp>
+      <ColNames>EMPLOYEEID</ColNames>
+      <RefTableName>EMPLOYEE</RefTableName>
+      <RefKeyName>EMPLOYEE_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <trigger id="210" parent="94" name="PURCHASEID_TR">
+      <ObjectId>111746</ObjectId>
+      <SourceTextLength>85</SourceTextLength>
+      <DependsOnIds>144,111745</DependsOnIds>
+      <CreatedTimestamp>2019-11-18.13:50:52</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-18.13:50:52</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="211" parent="95" name="PURCHASEID">
+      <Position>1</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="212" parent="95" name="PRODUCTID">
+      <Position>2</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="213" parent="95" name="QUANTITY">
+      <Position>3</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <column id="214" parent="95" name="DETAILID">
+      <Position>4</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="215" parent="95" name="PURCHASEDETAIL_PK">
+      <ObjectId>110658</ObjectId>
+      <CreatedTimestamp>2019-11-15.11:16:30</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-15.11:16:30</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>PURCHASEID
+DETAILID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="216" parent="95" name="PURCHASEDETAIL_PK">
+      <ModifiedTimestamp>2019-11-15.11:16:30</ModifiedTimestamp>
+      <ColNames>PURCHASEID
+DETAILID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PURCHASEDETAIL_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="217" parent="95" name="PURCHASEDETAIL_PURCHASE_FK">
+      <ModifiedTimestamp>2019-11-15.11:18:00</ModifiedTimestamp>
+      <ColNames>PURCHASEID</ColNames>
+      <RefTableName>PURCHASE</RefTableName>
+      <RefKeyName>PURCHASE_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="218" parent="95" name="PURCHASEDETAIL_PRODUCT_FK">
+      <ModifiedTimestamp>2019-11-15.11:17:57</ModifiedTimestamp>
+      <ColNames>PRODUCTID</ColNames>
+      <RefTableName>PRODUCT</RefTableName>
+      <RefKeyName>PRODUCT_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="219" parent="95" name="PDT_QUANTITYCK">
+      <ModifiedTimestamp>2019-11-15.11:16:24</ModifiedTimestamp>
+      <ColNames>QUANTITY</ColNames>
+      <Predicate> quantity &gt; 0 </Predicate>
+    </check>
+    <trigger id="220" parent="95" name="DETAILID_TR">
+      <ObjectId>111748</ObjectId>
+      <SourceTextLength>81</SourceTextLength>
+      <DependsOnIds>144,111747</DependsOnIds>
+      <CreatedTimestamp>2019-11-18.13:52:17</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-18.13:52:17</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="221" parent="96" name="WAREHOUSEID">
+      <Position>1</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="222" parent="96" name="SHIPMENTID">
+      <Position>2</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="223" parent="96" name="SHIPMENTARRIVAL">
+      <Position>3</Position>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="224" parent="96" name="SHIPMENTRELEASE">
+      <Position>4</Position>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="225" parent="96" name="SHIPTYPEID">
+      <Position>5</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="226" parent="96" name="STATUS">
+      <Position>6</Position>
+      <DataType>CHAR(1 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;R&apos;</DefaultExpression>
+    </column>
+    <column id="227" parent="96" name="EMPLOYEEID">
+      <Position>7</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="228" parent="96" name="SHIPMENT_PK">
+      <ObjectId>110660</ObjectId>
+      <CreatedTimestamp>2019-11-15.11:16:43</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-15.11:16:43</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>SHIPMENTID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="229" parent="96" name="SHIPMENT_PK">
+      <ModifiedTimestamp>2019-11-15.11:16:43</ModifiedTimestamp>
+      <ColNames>SHIPMENTID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SHIPMENT_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="230" parent="96" name="SHIPMENT_WAREHOUSE_FK">
+      <ModifiedTimestamp>2019-11-15.11:18:10</ModifiedTimestamp>
+      <ColNames>WAREHOUSEID</ColNames>
+      <RefTableName>WAREHOUSE</RefTableName>
+      <RefKeyName>WAREHOUSE_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="231" parent="96" name="SHIPMENT_SHIPMENTTYPE_FK">
+      <ModifiedTimestamp>2019-11-15.11:18:07</ModifiedTimestamp>
+      <ColNames>SHIPTYPEID</ColNames>
+      <RefTableName>SHIPMENTTYPE</RefTableName>
+      <RefKeyName>SHIPMENTTYPE_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="232" parent="96" name="SHIPMENT_EMPLOYEE_FK">
+      <ModifiedTimestamp>2019-11-15.11:18:04</ModifiedTimestamp>
+      <ColNames>EMPLOYEEID</ColNames>
+      <RefTableName>EMPLOYEE</RefTableName>
+      <RefKeyName>EMPLOYEE_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="233" parent="96" name="SHIPMENTSTATUSDFV">
+      <ModifiedTimestamp>2019-11-15.11:29:51</ModifiedTimestamp>
+      <ColNames>STATUS</ColNames>
+      <Predicate>status in (&apos;R&apos;, &apos;D&apos;, &apos;I&apos;, &apos;V&apos;)</Predicate>
+    </check>
+    <trigger id="234" parent="96" name="SHIPMENTID_TR">
+      <ObjectId>111750</ObjectId>
+      <SourceTextLength>85</SourceTextLength>
+      <DependsOnIds>144,111749</DependsOnIds>
+      <CreatedTimestamp>2019-11-18.13:53:15</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-18.13:53:15</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <trigger id="235" parent="96" name="SHIPDATECK_TR">
+      <ObjectId>111776</ObjectId>
+      <SourceTextLength>238</SourceTextLength>
+      <DependsOnIds>1752</DependsOnIds>
+      <CreatedTimestamp>2019-11-18.14:55:25</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-18.14:55:25</ModifiedTimestamp>
+      <Events>IU</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="236" parent="97" name="SHIPTYPEID">
+      <Position>1</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="237" parent="97" name="TYPE">
+      <Position>2</Position>
+      <DataType>CHAR(1 char)|0us</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="238" parent="97" name="LOCATION">
+      <Position>3</Position>
+      <DataType>VARCHAR2(50 char)|0us</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="239" parent="97" name="SHIPDESCRIPTION">
+      <Position>4</Position>
+      <DataType>VARCHAR2(80 char)|0us</DataType>
+    </column>
+    <index id="240" parent="97" name="SHIPMENTTYPE_PK">
+      <ObjectId>110662</ObjectId>
+      <CreatedTimestamp>2019-11-15.11:16:52</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-15.11:16:52</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>SHIPTYPEID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="241" parent="97" name="SHIPMENTTYPE_PK">
+      <ModifiedTimestamp>2019-11-15.11:16:52</ModifiedTimestamp>
+      <ColNames>SHIPTYPEID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SHIPMENTTYPE_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <check id="242" parent="97" name="SHIPMENTTYPEDFV">
+      <ModifiedTimestamp>2019-11-20.11:24:39</ModifiedTimestamp>
+      <ColNames>TYPE</ColNames>
+      <Predicate>type in (&apos;N&apos;,&apos;L&apos;,&apos;I&apos;)</Predicate>
+    </check>
+    <trigger id="243" parent="97" name="SHIPTYPEID_TR">
+      <ObjectId>111752</ObjectId>
+      <SourceTextLength>85</SourceTextLength>
+      <DependsOnIds>144,111751</DependsOnIds>
+      <CreatedTimestamp>2019-11-18.13:55:41</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-18.13:55:41</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="244" parent="98" name="WAREHOUSEID">
+      <Position>1</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="245" parent="98" name="WAREHOUSENAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20 char)|0us</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="246" parent="98" name="BRANCHID">
+      <Position>3</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="247" parent="98" name="WAREHOUSE_PK">
+      <ObjectId>110664</ObjectId>
+      <CreatedTimestamp>2019-11-15.11:16:59</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-15.11:16:59</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>WAREHOUSEID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="248" parent="98" name="WAREHOUSE_PK">
+      <ModifiedTimestamp>2019-11-15.11:16:59</ModifiedTimestamp>
+      <ColNames>WAREHOUSEID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>WAREHOUSE_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="249" parent="98" name="WAREHOUSE_BRANCH_FK">
+      <ModifiedTimestamp>2019-11-15.11:18:13</ModifiedTimestamp>
+      <ColNames>BRANCHID</ColNames>
+      <RefTableName>BRANCH</RefTableName>
+      <RefKeyName>BRANCH_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <trigger id="250" parent="98" name="WAREHOUSEID_TR">
+      <ObjectId>111754</ObjectId>
+      <SourceTextLength>87</SourceTextLength>
+      <DependsOnIds>144,111753</DependsOnIds>
+      <CreatedTimestamp>2019-11-18.13:56:31</CreatedTimestamp>
+      <ModifiedTimestamp>2019-11-18.13:56:31</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+  </database-model>
+</dataSource>

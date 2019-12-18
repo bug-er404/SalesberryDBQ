@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EmployeeSupervision" directorySegmentName="seg_0" id="20C4CCDD-F288-E54B-D1E3-8F4DCD4C952C">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-07 17:03:58 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<engineerTo>
+<item key="A645B89C-FE8A-FAF8-0FAA-3FDDE566BFAE" value="true"/>
+</engineerTo>
+<targetPk>F5223DE9-A74B-1926-6482-48E242299A2F</targetPk>
+<identifying>false</identifying>
+<nameOnSource>supervise</nameOnSource>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0F251AC0-5769-B5A1-7B37-04FF9ACC8B35</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0F251AC0-5769-B5A1-7B37-04FF9ACC8B35</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

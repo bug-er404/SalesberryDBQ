@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3BE3BF15-04CA-D30F-5683-1C586F5DB839" name="Member">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>7167B660-90D1-389E-B6F4-13A8C468232D</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MemberID" id="D6A42450-4C85-D03C-B4AD-37E15118B045">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>E1908342-4792-9EB0-FE68-2058C3869573</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F0C87B2-CF79-A934-555B-DD1B666A8F88" referredColumn="B6711887-EFDC-5D9F-CBCD-774C87F7641E"/>
+</associations>
+</Column>
+<Column name="FirstName" id="9CC1C7B2-C7BD-4E24-88EC-7271645A349F">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>3C3DF62B-CEE2-2C27-20F1-B77563AED9AB</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LastName" id="95DC5729-9E68-2C9A-9444-4BFD680E09C4">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>8844E8A0-38EF-776C-B24B-D0716224E421</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Phone" id="D35DAA63-3F05-1E5C-51B4-FC91B99065C9">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>62D50FB6-4350-11F3-9B30-FFE9724A99DD</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<domain>284A8E7D-9CE3-7A2D-45B5-0020FC2B9AF5</domain>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="C9508F00-9D7E-267C-0CE6-2AA41498BC46">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>6593709B-7215-DC92-7E7E-EB43C7A3DB8A</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<domain>DBF53282-D018-C75E-9A8D-09DEF81D4900</domain>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="46574084-CCBA-8383-4A7F-3B0A198EC7BF">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>609DEB6C-6B52-6629-D84F-000DAABC8760</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="48F9ED5C-A910-A051-1A03-3B2308313907" name="Member_PK">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>EC69DC67-6F40-E7D2-2BD6-52913D364B2D</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D35DAA63-3F05-1E5C-51B4-FC91B99065C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="202AFC03-02E9-E1C5-8471-05BC87050BF2" name="UC_Email">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 13:27:14 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9508F00-9D7E-267C-0CE6-2AA41498BC46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69A8A1BB-E4D2-E71F-D2FB-D92486C89F6A" name="Member__IDX">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D14F5706-6734-B8B5-18C4-E393B6E6C22E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D6A42450-4C85-D03C-B4AD-37E15118B045"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF569560-3456-2397-F4A1-8E4D662492AE" name="Member_Membership_FK">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>D14F5706-6734-B8B5-18C4-E393B6E6C22E</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6A42450-4C85-D03C-B4AD-37E15118B045"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

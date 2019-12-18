@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EmployeesInvoice" directorySegmentName="seg_0" id="FCADEF22-9154-04E8-8442-8BB1135B31B3">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-07 16:10:56 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<engineerTo>
+<item key="A645B89C-FE8A-FAF8-0FAA-3FDDE566BFAE" value="true"/>
+</engineerTo>
+<sourcePk>F5223DE9-A74B-1926-6482-48E242299A2F</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>prepare</nameOnSource>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0F251AC0-5769-B5A1-7B37-04FF9ACC8B35</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EC23B37F-9E46-A1A5-1E72-EC534C2F1FE8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

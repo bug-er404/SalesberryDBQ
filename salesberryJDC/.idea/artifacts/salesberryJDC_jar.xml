@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="salesberryJDC:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/salesberryJDC_jar</output-path>
+    <root id="archive" name="salesberryJDC.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="salesberryJDC" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ojdbc6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/commons-lang-2.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/miglayout-swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/miglayout-core.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/j-text-utils-0.3.3.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

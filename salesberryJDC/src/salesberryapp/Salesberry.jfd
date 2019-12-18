@@ -1,0 +1,211 @@
+JFDML JFormDesigner: "7.0.0.6.255" Java: "11.0.3" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+			"$layoutConstraints": "hidemode 3"
+			"$columnConstraints": "[30,fill][fill][392,fill][57,fill]"
+			"$rowConstraints": "[26][][][][][][][][][]"
+		} ) {
+			name: "this"
+			"background": sfield java.awt.Color darkGray
+			"border": new javax.swing.border.LineBorder( sfield java.awt.Color white, 1, true )
+			"foreground": new java.awt.Color( 255, 255, 255, 255 )
+			"font": new java.awt.Font( "Segoe UI Historic", 0, 16 )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "Salesberry Database Queries"
+				"horizontalAlignment": 0
+				"background": sfield java.awt.Color black
+				"foreground": &Color0 new java.awt.Color( 255, 255, 255, 255 )
+				"font": new java.awt.Font( "Stencil", 0, 35 )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 0 4 1"
+			} )
+			add( new FormComponent( "javax.swing.JSeparator" ) {
+				name: "separator1"
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 2 1,width 1"
+			} )
+			add( new FormComponent( "com.jformdesigner.designer.wrapper.HSpacer" ) {
+				name: "hSpacer1"
+				"foreground": &Color1 new java.awt.Color( 60, 63, 65, 255 )
+				"background": sfield java.awt.Color darkGray
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 2"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "query1"
+				"text": "Branch Managers earning more than 26,000. "
+				"foreground": #Color0
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 2 2"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"text": "GET"
+				"font": &Font0 new java.awt.Font( "Segoe UI Historic", 0, 12 )
+				"foreground": &Color2 new java.awt.Color( 255, 255, 255, 255 )
+				"background": sfield java.awt.Color gray
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "getQuery1", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 3 2"
+			} )
+			add( new FormComponent( "com.jformdesigner.designer.wrapper.HSpacer" ) {
+				name: "hSpacer3"
+				"foreground": #Color1
+				"background": sfield java.awt.Color darkGray
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 3"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "query2"
+				"text": "Employee - Branch information (Inner Join)"
+				"foreground": #Color0
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 2 3"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button2"
+				"text": "GET"
+				"font": #Font0
+				"foreground": #Color2
+				"background": sfield java.awt.Color gray
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "getQuery2", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 3 3"
+			} )
+			add( new FormComponent( "com.jformdesigner.designer.wrapper.HSpacer" ) {
+				name: "hSpacer2"
+				"foreground": #Color1
+				"background": sfield java.awt.Color darkGray
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 4"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "query3"
+				"text": "Employee - Branch information (Outer Join)"
+				"foreground": #Color0
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 2 4"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button3"
+				"text": "GET"
+				"font": #Font0
+				"foreground": #Color2
+				"background": sfield java.awt.Color gray
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "getQuery3", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 3 4"
+			} )
+			add( new FormComponent( "com.jformdesigner.designer.wrapper.HSpacer" ) {
+				name: "hSpacer4"
+				"foreground": #Color1
+				"background": sfield java.awt.Color darkGray
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 5"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "query4"
+				"text": "Highest salary received in each job."
+				"foreground": #Color0
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 2 5"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button4"
+				"text": "GET"
+				"font": #Font0
+				"foreground": #Color2
+				"background": sfield java.awt.Color gray
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "getQuery4", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 3 5"
+			} )
+			add( new FormComponent( "com.jformdesigner.designer.wrapper.HSpacer" ) {
+				name: "hSpacer5"
+				"foreground": #Color1
+				"background": sfield java.awt.Color darkGray
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 6"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "query5"
+				"text": "Highest salary (above 15,000) received in each job. "
+				"foreground": #Color0
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 2 6"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button5"
+				"text": "GET"
+				"font": #Font0
+				"foreground": #Color2
+				"background": sfield java.awt.Color gray
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "getQuery5", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 3 6"
+			} )
+			add( new FormComponent( "com.jformdesigner.designer.wrapper.HSpacer" ) {
+				name: "hSpacer6"
+				"foreground": #Color1
+				"background": sfield java.awt.Color darkGray
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 7"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "query6"
+				"text": "Employee who processed the purchase."
+				"foreground": #Color0
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 2 7"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button6"
+				"text": "GET"
+				"font": #Font0
+				"foreground": #Color2
+				"background": sfield java.awt.Color gray
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "getQuery6", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 3 7"
+			} )
+			add( new FormComponent( "com.jformdesigner.designer.wrapper.HSpacer" ) {
+				name: "hSpacer7"
+				"foreground": #Color1
+				"background": sfield java.awt.Color darkGray
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 8"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "query7"
+				"text": "Highest salary earning employee in each job."
+				"foreground": #Color0
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 2 8"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button7"
+				"text": "GET"
+				"font": #Font0
+				"foreground": #Color2
+				"background": sfield java.awt.Color gray
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "getQuery7", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 3 8"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "Author: Salil Maharjan"
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 3 9"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 50, 25 )
+			"size": new java.awt.Dimension( 575, 355 )
+		} )
+	}
+}

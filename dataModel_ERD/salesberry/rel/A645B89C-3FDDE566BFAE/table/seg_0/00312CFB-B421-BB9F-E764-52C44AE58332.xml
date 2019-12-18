@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="00312CFB-B421-BB9F-E764-52C44AE58332" name="Invoice">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>D923257D-D034-6BF2-3DF2-EF960C8AC467</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="InvoiceID" id="35798427-0C95-3664-8CC3-B06715DC6AB7">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>4337359F-7700-BCBE-F677-3F1254927739</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Amount" id="41D48692-B52A-3534-25A9-F6E583224D08">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>57268798-CC96-2A7F-5CD9-B118AF364018</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<domain>75C0C14D-41B4-10DD-3661-ED53CCDB6919</domain>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DateTime" id="F42CD15C-3C5C-DD08-C242-45FBCBFF0CBD">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>448C074B-8653-4F7A-B54D-D41DA80026F9</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>FDD3E43E-230F-D9D7-7CE1-3B1231B23FE7</domain>
+<defaultValue>SYSDATETIME()</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PaymentType" id="6E6F5215-B52A-B612-73FA-5C7CA7BC1719">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>69E74DC9-7956-EC4A-13C8-C9EEB677896B</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<domain>9823DCAF-9239-E2C4-56CE-1D518CCE5911</domain>
+<defaultValue>CH</defaultValue>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C2CAD2C-417C-4BFE-0574-F1822CA9170C" referredColumn="A1895AAF-988C-0A1C-F742-E6C87B67988A"/>
+</associations>
+</Column>
+<Column name="PurchaseID" id="8733D896-4F1F-4A3B-FE73-FC02D5EA548A">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>4EAD00CC-35DA-9592-2462-260822BEA917</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="624287BA-BA61-88CE-8EDE-8E90DEA777D2" referredColumn="2E68A57C-A32C-383D-443B-1F659F576174"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D982123-6BF1-BC98-24EB-69DBF88C31CC" name="Invoice_PK">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>D5480CB2-A78C-F9A2-B4E7-7D4AD59800E0</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35798427-0C95-3664-8CC3-B06715DC6AB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92F7A0B0-22E3-BB8E-50D2-F14E604EA619" name="Invoice__IDX">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<ownerDesignName>salesberry</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>96DAA9F1-144F-9367-8F63-5EAE87EC8C6C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="8733D896-4F1F-4A3B-FE73-FC02D5EA548A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4051DEF-BFE2-D3B4-4F32-A775285D33B9" name="Invoice_PaymentType_FK">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>43A5281F-678E-E69F-CCC4-0EE82E218AB4</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E6F5215-B52A-B612-73FA-5C7CA7BC1719"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2D492AF-1420-F5EC-124D-4914AE562B3F" name="Invoice_Purchase_FK">
+<createdBy>s-sm237886</createdBy>
+<createdTime>2019-11-12 09:59:04 UTC</createdTime>
+<generatorID>96DAA9F1-144F-9367-8F63-5EAE87EC8C6C</generatorID>
+<ownerDesignName>salesberry</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8733D896-4F1F-4A3B-FE73-FC02D5EA548A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
