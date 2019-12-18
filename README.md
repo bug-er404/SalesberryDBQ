@@ -1,8 +1,6 @@
 # salesberryDBQ
 A simple database design and implementation for Salesberry company, one of the retail chains based in Nepal.
 
-*- Salil Maharjan*
-
 ***
 
 
@@ -22,4 +20,3 @@ Included:
 * DML scripts
 * Logical and Physical ERD diagrams in ERD folder.
 * Source code and jar in salesberryJDC folder.
-
