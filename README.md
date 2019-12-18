@@ -11,11 +11,16 @@ This project designs and implements an Oracle database to meet the daily process
 
 #### Simple GUI Demo:
 
-![alt text](./GUI_Demo.jpg "GUI Demo)
+![alt text](./GUI_Demo.jpg "GUI Demo")
 
 ---
 
+Included:
 
-
+* Datamodelling source
+* DDL scripts
+* DML scripts
+* Logical and Physical ERD diagrams in ERD folder.
+* Source code and jar in salesberryJDC folder.
 
 ***
