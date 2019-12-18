@@ -10,8 +10,9 @@ This project designs and implements an Oracle database to meet the daily process
 
 
 #### Simple GUI Demo:
-GUI demo for some simple queries to the database.
+
 ![alt text](./GUI_Demo.jpg "GUI Demo)
+
 ---
 
 
